@@ -34,10 +34,6 @@ This is a portfolio website developed as part of the Web Technologies course. Th
 
 This project is licensed under the MIT License.
 
-## Acknowledgments
-
-- [List any resources or libraries used in the project, e.g. images, fonts, etc.]
-
 ## Contact
 
 For any questions or concerns, please contact us at our email address.
