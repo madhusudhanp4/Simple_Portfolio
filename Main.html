@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="nav-bar">
+            <div class="brand">
+                <a href="#home"><h1>Our Portfolio</h1></a>
+            </div>
+            <div class="nav-list">
+                <div class="hamburger"><div class="bar"></div></div>
+                <ul>
+                    <li><a href="#home" data-scroll>Home</a></li>
+                    <li><a href="#about" data-scroll>About</a></li>
+                    <li><a href="#projects" data-scroll>Projects</a></li>
+                    <li><a href="#contact" data-scroll>Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section id="home">
+        <div class="container">
+            <h2>Welcome to Our Portfolio</h2>
+            <p>Web Developers & Designers</p>
+            <p>This portfolio website is developed as part of the Web Technologies
+                course where we have gained valuable skills in the Web Development
+                field using HTML, CSS, JavaScript and many more. 
+                This helps us showcase our skills and creativity in developing 
+                interactive websites. We have included the projects developed in 
+                our entire course and a brief information related to the projects. 
+                We have added a contact page to let the viewers contact us about 
+                their queries, etc. 
+            </p>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <h2>About us</h2>
+            <p>Madhu, Puneet, Vasant, Abhijeeth</p><br>
+            <p></p>
+            <img src="img/profile.jpg" alt="Profile Picture">
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <img src="img/project1.png" alt="Project 1">
+                    <h3>SMART PARKING SYSTEM</h3>
+                    <p>An automated car parking system is a process through which
+                        car parking can be done more efficiently and easily than 
+                        the manual method. The system will provide the user better 
+                        services. The system counts the number of cars in the 
+                        garage and checks if there’s any vacancy.</p>
+                </div>
+                <div class="project">
+                    <img src="img/project2.png" alt="Project 2">
+                    <h3>Website Vulnerability Scanner</h3>
+                    <p>A Website Vulnerability Scanner serves a pivotal role in 
+                        fortifying web applications against potential security 
+                        threats. Our efforts have centered on presenting the 
+                        design and implementation of such a scanner. We've 
+                        diligently sought out common vulnerabilities pervasive on
+                        the web, encompassing threats like SQL Injection, 
+                        Cross-Site Scripting, Remote Code Execution, and File 
+                        Inclusion. Our focus has been on proposing an algorithm 
+                        and implementing enhancements within the system to 
+                        bolster the efficacy of vulnerability detection within 
+                        web applications.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact us</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
